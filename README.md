@@ -102,8 +102,6 @@ This analysis successfully processed and analyzed CPTAC prospective breast cance
 *   Proteins more abundant in **Luminal A tumors** are highly enriched for transcription factor activity, reflecting their hormone-receptor driven, differentiated state, exemplified by the high expression of ESR1, GATA3, and FOXA1 observed in the heatmap.
 *   These findings confirm known biological distinctions at the protein level and provide specific protein candidates and pathways for further investigation as potential biomarkers or therapeutic targets.
 
-Future directions could include analyzing other subtype comparisons, integrating this proteomic data with other omics layers (e.g., transcriptomics), performing survival analysis based on protein expression, or building machine learning classifiers.
-
 ## Technologies & Packages Used
 
 *   **Language:** R (4.3)
