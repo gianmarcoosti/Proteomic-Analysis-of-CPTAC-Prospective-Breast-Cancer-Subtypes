@@ -104,22 +104,9 @@ This analysis successfully processed and analyzed CPTAC prospective breast cance
 
 Future directions could include analyzing other subtype comparisons, integrating this proteomic data with other omics layers (e.g., transcriptomics), performing survival analysis based on protein expression, or building machine learning classifiers.
 
-## Reproducibility
-
-This analysis was performed using R and RStudio, with package management handled by `renv` for reproducibility.
-
-**Steps to Reproduce:**
-
-1.  **Clone Repository:** `git clone [URL of your GitHub repository]`
-2.  **Open Project:** Open the `CPTAC_BreastCancer_Biomarkers.Rproj` file (if you created one) or the project folder in RStudio.
-3.  **Restore Environment:** In the RStudio Console, run `renv::restore()`. This will install the exact package versions specified in the `renv.lock` file into a project-local library. Accept any installation prompts.
-4.  **Download Data (If necessary):** The large `.gct` file may not be included in the repository. Download `prosp-brca-v5.4-public-proteome-ratio-norm-NArm.gct` and `prosp-brca-v5.4-public-sample-annotation.csv` (e.g., from CPTAC or the Krug et al. publication) and place them in the `raw_data/S060_Breast_Cancer_data_freeze_GCTfiles_v5.4-public/S060_Breast_Cancer_data_freeze_GCTfiles_v5.4-public/` subdirectory (or adjust the path in the `cptac_analysis.R` script).
-5.  **Run Analysis Script:** Execute the `cptac_analysis.R` script in RStudio (e.g., using the "Source" button).
-6.  **Check Results:** Output plots (.png) and data tables (.csv) will be saved to the `results/` folder.
-
 ## Technologies & Packages Used
 
-*   **Language:** R ([Your R Version])
+*   **Language:** R (4.3)
 *   **Environment:** RStudio
 *   **Package Management:** `renv`
 *   **Core Packages:**
