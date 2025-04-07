@@ -61,19 +61,19 @@ Principal Component Analysis on the processed data showed clear separation betwe
 
 *Optional: Include ER Status PCA if generated*
 ![PCA Plot - ER Status](results/EDA_PCA_ER_Status.png)
-*Caption: PCA of samples, colored by ER Status.*
+*PCA of samples, colored by ER Status.*
 
 ### Differential Expression (Basal vs. LumA Example)
 Differential expression analysis between Basal and Luminal A subtypes (using FDR < 0.05 and |log2 Fold Change| >= 1.0) identified **[Number]** significantly upregulated proteins in Basal samples and **[Number]** significantly downregulated proteins (i.e., upregulated in LumA).
 
 ![Volcano Plot - Basal vs LumA](results/DE_Volcano_BasalvsLumA.png)
-*Caption: Volcano plot showing log2 fold change vs. -log10 adjusted p-value for Basal vs. LumA comparison. Red points are significantly upregulated in Basal; blue points are significantly downregulated.*
+*Volcano plot showing log2 fold change vs. -log10 adjusted p-value for Basal vs. LumA comparison. Red points are significantly upregulated in Basal; blue points are significantly downregulated.*
 
 ### Heatmap Visualization
 A heatmap of the top 50 differentially expressed proteins clearly clustered Basal and LumA samples separately.
 
-![Heatmap - Top 50 DE Basal vs LumA](results/DE_Heatmap_top50_ BasalvsLumA .png)
-*Caption: Heatmap of the top 50 DE proteins (Basal vs LumA). Rows are proteins (Z-score scaled), columns are samples. Annotation bars show PAM50 subtype and ER status.*
+![Heatmap - Top 50 DE Basal vs LumA](results/DE_Heatmap_top50_BasalvsLumA.png)
+*Heatmap of the top 50 DE proteins (Basal vs LumA). Rows are proteins (Z-score scaled), columns are samples. Annotation bars show PAM50 subtype and ER status.*
 
 *   **Observations:** Distinct blocks of proteins showed higher expression in Basal samples (enriched for ECM/wound healing functions) versus LumA samples. Key luminal markers like ESR1, GATA3, and FOXA1 showed higher expression in LumA samples, as expected. Sample clustering correlated well with ER status annotation (Basal mostly ER-, LumA mostly ER+).
 
@@ -82,17 +82,17 @@ A heatmap of the top 50 differentially expressed proteins clearly clustered Basa
 *   **Upregulated in Basal (vs. LumA):** GO Biological Process analysis revealed significant enrichment for terms related to **extracellular matrix organization, wound healing, cell-substrate adhesion, and coagulation cascades**. This aligns with the known invasive and microenvironment-interacting properties of Basal-like tumors.
 
     ![GO MF - Upregulated in Basal](results/Enrichment_GO_MF_Upreg_BasalvsLumA_dotplot.png)
-    *Caption: GO Biological Process enrichment for proteins upregulated in Basal vs. LumA.*
+    *GO Molecular Function enrichment for proteins upregulated in Basal vs. LumA.*
 
 *   **Downregulated in Basal (Upregulated in LumA):** GO Molecular Function analysis showed strong enrichment for **DNA-binding transcription factor activity**, particularly related to RNA Polymerase II cis-regulatory regions. This reflects the transcriptionally driven, differentiated state often seen in Luminal A tumors.
 
     ![GO MF - Downregulated in Basal](results/Enrichment_GO_MF_Downreg_BasalvsLumA_dotplot.png)
-    *Caption: GO Molecular Function enrichment for proteins downregulated in Basal vs. LumA.*
+    *GO Molecular Function enrichment for proteins downregulated in Basal vs. LumA.*
 
 *   **KEGG Pathway Analysis (All DE Genes):** Analysis using all DE genes highlighted **Complement and coagulation cascades** as the most significant pathway, along with pathways related to **actin cytoskeleton regulation, steroid hormone biosynthesis, and platelet activation**.
 
     ![KEGG Pathways - All DE](results/Enrichment_KEGG_BasalvsLumA_dotplot.png)
-    *Caption: KEGG Pathway enrichment for all differentially expressed proteins (Basal vs. LumA).*
+    *KEGG Pathway enrichment for all differentially expressed proteins (Basal vs. LumA).*
 
 ## Discussion & Conclusion
 
