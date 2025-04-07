@@ -135,4 +135,4 @@ This analysis was performed using R and RStudio, with package management handled
 
 ## Contact
 
-[Link to your portfolio website or LinkedIn profile - Optional]
+[Link portfolio website or LinkedIn profile]
