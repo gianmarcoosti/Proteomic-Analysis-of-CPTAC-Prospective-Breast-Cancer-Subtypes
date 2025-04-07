@@ -72,7 +72,7 @@ Differential expression analysis between Basal and Luminal A subtypes (using FDR
 ### Heatmap Visualization
 A heatmap of the top 50 differentially expressed proteins clearly clustered Basal and LumA samples separately.
 
-![Heatmap - Top 50 DE Basal vs LumA](results/DE_Heatmap_top50_BasalvsLumA.png)
+![Heatmap - Top 50 DE Basal vs LumA](results/DE_Heatmap_top50_ BasalvsLumA .png)
 *Caption: Heatmap of the top 50 DE proteins (Basal vs LumA). Rows are proteins (Z-score scaled), columns are samples. Annotation bars show PAM50 subtype and ER status.*
 
 *   **Observations:** Distinct blocks of proteins showed higher expression in Basal samples (enriched for ECM/wound healing functions) versus LumA samples. Key luminal markers like ESR1, GATA3, and FOXA1 showed higher expression in LumA samples, as expected. Sample clustering correlated well with ER status annotation (Basal mostly ER-, LumA mostly ER+).
