@@ -118,6 +118,3 @@ This analysis successfully processed and analyzed CPTAC prospective breast cance
     *   `clusterProfiler` (GO/KEGG enrichment)
     *   `org.Hs.eg.db` (Human genome annotation)
 
-## Contact
-
-[Link portfolio website or LinkedIn profile]
